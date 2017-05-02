@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Che ne sanno i 2000</string>
+    <string name="domanda1">Chi era il personaggio principale di the o.c.</string>
+
+
+    <string-array name="domande">
+        <item>Chi era il personaggio principale di the o.c. ?</item>
+        <item>Qual è il nome di quest pokémon</item>
+        <item>Qual è il nome del cane dei simpson</item>
+        <item>Di che anno è Eva Henger?</item>
+        <item>Come si chiamava la migliore amica d tarzan</item>
+    </string-array>
+
+    <!--le risposte per una domanda ad indice i sono le risposte che hanno range i*4, i*4+3-->
+
+    <string-array name="risposte">
+        <item>opzione1</item>
+        <item>opzione2</item>
+        <item>opzione3</item>
+        <item>opzione4</item>
+        <item>opzione5</item>
+        <item>opzione6</item>
+        <item>opzione7</item>
+        <item>opzione8</item>
+        <item>opzione9</item>
+        <item>opzione10</item>
+        <item>opzione11</item>
+        <item>opzione12</item>
+        <item>opzione13</item>
+        <item>opzione14</item>
+        <item>opzione15</item>
+        <item>opzione16</item>
+        <item>opzione17</item>
+        <item>opzione18</item>
+        <item>opzione19</item>
+        <item>opzione20</item>
+    </string-array>
+    <string name="title_activity_fine_gioco">FineGioco</string>
+
+
+</resources>

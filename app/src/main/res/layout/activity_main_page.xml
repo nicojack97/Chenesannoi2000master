@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicojack.chenesannoi2000.MainPage"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="493dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <TextView
+            android:id="@+id/domanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text='Di chi è la canzone "La danza delle streghe"?'
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/r1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/r2"
+            android:layout_alignBottom="@+id/r2"
+            android:layout_toLeftOf="@id/r2"
+            android:layout_toStartOf="@id/r1"
+            android:onClick="r1click"
+            android:text="GIGI D'AGOSTINO"
+            tools:layout_editor_absoluteX="193dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/domanda"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text="15"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/r3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="r3click"
+            android:text="PREZIOSO"
+            tools:layout_editor_absoluteX="193dp"
+            tools:layout_editor_absoluteY="264dp"
+            android:layout_below="@+id/r1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/r2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="r2click"
+            android:text="GABRY PONTE"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="209dp"
+            android:layout_below="@+id/immagine"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="45dp" />
+
+        <Button
+            android:id="@+id/r4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="r4click"
+            android:text="DJ MATRIX"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="142dp"
+            android:layout_below="@+id/r2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/immagine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/jolly"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/immagine"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="34dp"
+            android:text="counter" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
